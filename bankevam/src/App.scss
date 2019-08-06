@@ -1,3 +1,16 @@
 body{
   background: #ffffff;
+  direction: rtl;
+}
+#root{
+  height: 100%;
+  .App{
+    height: 100%;
+    .body-box{
+      height: 100%;
+      >div{
+        height: 100%;
+      }
+    }
+  }
 }
