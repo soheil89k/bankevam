@@ -1,0 +1,104 @@
+@import "../../env";
+
+.footer-component {
+  background: #2c2c2c;
+  margin-top: 80px;
+  .social-network-btns {
+    display: flex;
+    width: 300px;
+    margin: auto;
+    justify-content: center;
+    a {
+      width: 60px;
+      height: 60px;
+      background: #464545;
+      margin: -25px 5px 0 5px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 25px;
+      color: rgba(249, 250, 252, .3);
+      i {
+
+      }
+    }
+  }
+  .menu {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    margin-top: 30px;
+    justify-content: center;
+    li {
+      a {
+        display: block;
+        padding: 8px 12px;
+        color: $footer_text_color;
+        &:hover {
+          color: $color_1;
+          text-decoration: underline;
+        }
+      }
+    }
+    &.menu-top {
+      li {
+        a {
+          color: #ffffff;
+          font-size: 16px;
+          &:hover {
+            color: $color_1;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+
+  .companies-logo {
+    display: flex;
+    justify-content: center;
+    li {
+      a {
+        margin: 0 3px;
+        img {
+          padding: 3px;
+          border-radius: 8px;
+          width: 73px;
+          height: 73px;
+          background-color: #fff;
+          transition: all 150ms ease-in-out;
+          &:hover {
+            background: $color_1;
+          }
+        }
+      }
+    }
+  }
+  .berand-logo-box {
+    height: 50px;
+    margin: 0 auto;
+    display: block;
+  }
+  .contact-details-box {
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 400px;
+    font-size: 12px;
+    color: $footer_text_color;
+
+  }
+  .bottom-bar{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    color: $footer_text_color;
+    background: #131313;
+    padding:12px;
+    a,span{
+      padding: 0 12px;
+    }
+  }
+}

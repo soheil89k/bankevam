@@ -5,6 +5,10 @@ import {
     Button,
 } from "antd"
 import HomePageSection2 from "./Sections/Section2";
+import HomePageAppSection from "./Sections/AppSection";
+import HomePageSection3 from "./Sections/Section3";
+import AboutSection from "./Sections/AboutSection";
+import Footer from "../Layouts/Footer";
 
 class Home extends React.Component {
     render() {
@@ -13,6 +17,10 @@ class Home extends React.Component {
                 <Header/>
                 <MasterBanner/>
                 <HomePageSection2/>
+                <HomePageAppSection/>
+                <HomePageSection3/>
+                <AboutSection/>
+                <Footer/>
             </div>
         )
     }

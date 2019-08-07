@@ -1,0 +1,32 @@
+@import "../../../_env.scss";
+
+.home-page-about-section {
+  padding: 50px 0;
+  position: relative;
+  text-align: center;
+  .bg-box{
+    background: $color_2;
+    height: 300px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    z-index: -1;
+
+  }
+  .holder{
+    background: #ffffff;
+    padding: 80px;
+    box-shadow: 0 3px 6px rgba(0,0,0,.16);
+    border-radius: 8px;
+    h2{
+      margin-bottom: 50px;
+    }
+    p{
+      font-size: 16px;
+      line-height: 30px;
+      text-align: right;
+      margin-bottom: 50px;
+    }
+  }
+}

@@ -1,4 +1,22 @@
+@import "./env";
 .container {
   max-width: 1300px;
   margin: 0 auto;
+}
+
+ul{
+  list-style: none;
+}
+a{
+  color:#313131;
+  &.white{
+    color:#ffffff;
+  }
+  &.gray{
+    color:$footer_text_color;
+  }
+  &:hover{
+    color:$color_1;
+    text-decoration: underline;
+  }
 }
