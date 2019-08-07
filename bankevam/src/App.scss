@@ -1,6 +1,20 @@
+@font-face {
+  font-family: 'iran-sans';
+  src: url('./asset/fonts/iransans/IRANSansWeb-FaNum.eot');
+  src: url('./asset/fonts/iransans/IRANSansWeb-FaNum.eot?#iefix') format('embedded-opentype'),
+  url('./asset/fonts/iransans/IRANSansWeb-FaNum.woff2') format('woff2'),
+  url('./asset/fonts/iransans/IRANSansWeb-FaNum.woff') format('woff'),
+  url('./asset/fonts/iransans/IRANSansWeb-FaNum.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 body{
   background: #ffffff;
   direction: rtl;
+  font-family: iran-sans;
+  font-weight: normal;
 }
 #root{
   height: 100%;
@@ -14,3 +28,4 @@ body{
     }
   }
 }
+

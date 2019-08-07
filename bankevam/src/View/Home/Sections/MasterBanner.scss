@@ -1,0 +1,92 @@
+@import "../../../_env.scss";
+.master-banner-component {
+  background: #dddddd;
+  height: calc(100vh - 64px);
+  background: url("../../../asset/img/banners/banner-01.jpg");
+  background: #ffffff;
+  background-position: bottom center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 30%;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.9) 20%, rgba(255, 255, 255, 0));
+  }
+  >div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .banner-title{
+      text-align: center;
+      font-size: 30px;
+    }
+    .banner-description{
+      margin-bottom: 30px;
+    }
+    .tab-controller{
+      display: flex;
+      width: 800px;
+      button{
+        flex: 1;
+        width: auto;
+        background: rgba(0,0,0,0.4);
+        color:#ffffff;
+        padding: 10px 30px;
+        border-radius: 20px;
+        height: auto;
+        border:none;
+        margin: 10px 10px;
+        &.active{
+          background: $color_2;
+        }
+      }
+    }
+
+    .search-box{
+      padding: 15px;
+      background: rgba(0,0,0,0.3);
+      width: 800px;
+      border-radius: 40px;
+      display: flex;
+      .input-box{
+        display: flex;
+        flex: 1;
+        background: #ffffff;
+        border-radius: 20px;
+        .ant-select-selection{
+          background: transparent;
+        }
+        .county-selector{
+          max-width: 150px;
+          border-left: 1px #dddddd solid;
+        }
+        input{
+          border:none;
+          background: transparent;
+          height: 40px;
+          border-radius: 20px;
+        }
+      }
+      .button-box{
+        width: 80px;
+        margin-right: 10px;
+        button{
+          border-radius: 20px;
+          height: 40px;
+          background: $color_2;
+          color:#ffffff;
+          border:none;
+        }
+      }
+    }
+  }
+}
