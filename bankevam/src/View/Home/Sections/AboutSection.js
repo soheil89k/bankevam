@@ -18,8 +18,9 @@ class AboutSection extends React.Component {
                 <div class="bg-box"></div>
                 <div class="container">
                     <div className="holder">
-                        <SvgIcon icon="loan"/>
-                        <SvgIcon icon="balance"/>
+                        <div className="image-box">
+                        <SvgIcon icon="loan" />
+                        </div>
                         <h2>
                             کیلید،پنجره ای نو به دنیای مسکن
                         </h2>

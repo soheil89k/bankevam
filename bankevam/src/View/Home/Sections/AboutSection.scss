@@ -19,6 +19,13 @@
     padding: 80px;
     box-shadow: 0 3px 6px rgba(0,0,0,.16);
     border-radius: 8px;
+    .image-box{
+      margin-bottom: 20px;
+      svg{
+        height: 80px;
+        fill:$color_2
+      }
+    }
     h2{
       margin-bottom: 50px;
     }
