@@ -13,7 +13,7 @@ import Footer from "../Layouts/Footer";
 class Home extends React.Component {
     render() {
         return (
-            <div>
+            <>
                 <Header/>
                 <MasterBanner/>
                 <HomePageSection2/>
@@ -21,7 +21,7 @@ class Home extends React.Component {
                 <HomePageSection3/>
                 <AboutSection/>
                 <Footer/>
-            </div>
+            </>
         )
     }
 }

@@ -1,0 +1,40 @@
+@import "../../env";
+.search-list-item-component {
+  max-width: 20%;
+  flex: 1 0 20%;
+  padding: 5px;
+  position: relative;
+  .holder{
+    padding: 15px;
+    border: 1px #dddddd solid;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0,0,0,.16);
+    .tag-icon{
+      position: absolute;
+      left: 0;
+      top: -8px;
+      svg{
+        height: 60px;
+        width: auto;
+      }
+    }
+    .title{
+      font-weight: 600;
+    }
+    .added-time{
+      font-size: 10px;
+      text-align: left;
+    }
+    .details-box{
+      margin-top: 15px;
+      div{
+        display: flex;
+        justify-content: space-between;
+        span{
+          font-weight: 600;
+          color:$color_3;
+        }
+      }
+    }
+  }
+}

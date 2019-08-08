@@ -20,3 +20,19 @@ a{
     text-decoration: underline;
   }
 }
+
+.ant-btn{
+  &.ant-btn-primary{
+    background: $color_2;
+    border-color: $color_2;
+  }
+}
+
+hr{
+  background: #ffffff;
+  box-shadow: none;
+  border-bottom: 1px #eeeeee solid;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}

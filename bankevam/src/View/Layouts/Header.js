@@ -41,10 +41,14 @@ class Header extends React.Component {
                     <div className="profile-box">
                         <ul>
                             <li>
-                                <a href="">item</a>
+                                <a href="">
+                                    ورود یا ثبت نام
+                                </a>
                             </li>
                             <li className="full">
-                                <Button type="primary">Primary</Button>
+                                <Button type="primary">
+                                    ثبت رایگان آگهی
+                                </Button>
                             </li>
                         </ul>
                     </div>
